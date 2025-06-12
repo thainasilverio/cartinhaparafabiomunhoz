@@ -47,7 +47,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 100;
+      height: 100%;
       pointer-events: none;
       z-index: 10;
     }
@@ -106,7 +106,7 @@
 
     function createHearts() {
       const heartsContainer = document.querySelector('.hearts');
-      for (let i = 0; i < 25; i++) {
+      for (let i = 0; i < 55; i++) {
         const heart = document.createElement('div');
         heart.className = 'heart';
         heart.style.left = Math.random() * 100 + 'vw';
